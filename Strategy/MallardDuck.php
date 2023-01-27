@@ -14,6 +14,6 @@ class MallardDuck extends Duck
 
     public function display()
     {
-        echo '本物のカモです。', PHP_EOL;
+        echo '本物の鴨です。', PHP_EOL;
     }
 }

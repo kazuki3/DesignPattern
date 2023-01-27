@@ -14,6 +14,6 @@ class RubberDuck extends Duck
 
     public function display()
     {
-        echo 'ゴム製のカモです。', PHP_EOL;
+        echo 'ゴム製の鴨です。', PHP_EOL;
     }
 }

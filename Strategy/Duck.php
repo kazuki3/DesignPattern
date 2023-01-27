@@ -24,4 +24,14 @@ abstract class Duck
     {
         echo '全ての鴨は浮かびます。おとりの鴨でも！', PHP_EOL;
     }
+
+    public function setFlyBehavior(FlyBehavior $fb)
+    {
+        $this->flyBehavior = $fb;
+    }
+
+    public function setQuackBehavior(QuackBehavior $qb)
+    {
+        $this->quackBehavior = $qb;
+    }
 }
